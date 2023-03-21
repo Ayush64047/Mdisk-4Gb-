@@ -20,7 +20,7 @@ app = Client("tgid", bot_token=TG_BOT_TOKEN, api_hash=API_HASH, api_id=APP_ID)
 
 @app.on_message(filters.command(['start']))
 async def start(client, message):
-    await message.reply_text(text=f"Hello 👋\n\nI'm a telegram bot which convert MDisk link to your Link", reply_to_message_id=message.message_id)
+    await message.reply_text(text=f"Hello 👋\n\nI'm a telegram bot which convert MDisk link to your Link You Can Get Mdisk Links via @MdiskLinksSearchBot or you can request in Our group @blackest_harbour ", reply_to_message_id=message.message_id)
 
 
 @app.on_message(filters.command(['mdisk']))
